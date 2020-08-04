@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.author             = { "xcode" => "xcode@apple.com" }
   s.social_media_url   = "https://www.jianshu.com/u/8a7102c0b777"
 
-  s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/PodText.git", :tag => s.version }
-  s.source_files  = "majFrarkwork/*"
+  s.source       = { :git => "https://github.com/maajian/majFrarkwork", :tag => s.version }
+  s.source_files  = "MeariKit/*"
 
   s.framework  = "UIKit","Foundation"
   s.swift_version = '4.2'
