@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "TSBasicsKit"
+  s.name         = "majFrarkwork"
   s.version      = "1.0.0"
   s.platform     = :ios, "8.0"
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://www.jianshu.com/u/8a7102c0b777"
 
   s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/PodText.git", :tag => s.version }
-  s.source_files  = "TSBasicsKit/code/*"
+  s.source_files  = "majFrarkwork/*"
 
   s.framework  = "UIKit","Foundation"
   s.swift_version = '4.2'
