@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://www.jianshu.com/u/8a7102c0b777"
 
   s.source       = { :git => "https://github.com/maajian/majFrarkwork", :tag => s.version }
-  s.source_files  = "MeariKit/*"
+  # s.source_files  = "MeariKit"
+  s.vendored_frameworks = 'MeariKit.framework'
 
   s.framework  = "UIKit","Foundation"
   s.swift_version = '4.2'
